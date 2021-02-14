@@ -1,0 +1,11 @@
+Title: Flatmate Bill
+Description:
+
+
+objects:
+    Bill:
+        amount, period
+    Flatmate:
+        names, days_in_house, pays (bill)
+    PdfReport:
+        fileName, generate(flatmate1, flatmate2, bill)
